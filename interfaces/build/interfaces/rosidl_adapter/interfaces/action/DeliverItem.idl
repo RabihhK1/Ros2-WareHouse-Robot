@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interfaces/action/DeliverItem.action
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal definition")
+    struct DeliverItem_Goal {
+      string item_name;
+
+      int32 quantity;
+    };
+    @verbatim (language="comment", text=
+      "Result definition")
+    struct DeliverItem_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback definition")
+    struct DeliverItem_Feedback {
+      string status;
+    };
+  };
+};

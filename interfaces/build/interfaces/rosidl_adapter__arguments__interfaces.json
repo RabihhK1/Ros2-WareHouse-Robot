@@ -1,0 +1,7 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/rabih/Desktop/ros2_ws/src/interfaces:action/DeliverItem.action",
+    "/home/rabih/Desktop/ros2_ws/src/interfaces:srv/CheckStock.srv"
+  ]
+}
