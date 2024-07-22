@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/CheckStock.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request definition")
+    struct CheckStock_Request {
+      string item_name;
+    };
+    @verbatim (language="comment", text=
+      "Response definition")
+    struct CheckStock_Response {
+      int32 stock_level;
+    };
+  };
+};

@@ -1,0 +1,5 @@
+# Request definition
+string item_name
+---
+# Response definition
+int32 stock_level
